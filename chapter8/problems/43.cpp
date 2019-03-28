@@ -57,7 +57,7 @@ int main(){
 
 	cout << "Your new balance is : " << points <<" points.\n";
 	if(points > 0){
-	cout << "\nDo you want to play agian(Y or N)? " ;
+	cout << "\nDo you want to play again(Y or N)? " ;
 	cin  >> shree;
 }
 }
@@ -68,7 +68,7 @@ int main(){
 int choice(int guess, char carChoice[], int riskedPoints[]){
 	int guessedNumber;
 	for(int i = 0; i < guess; i++){
-		cout << "Guess " << i + 1 << "\t:" << endl;
+		cout << "\nGuess " << i + 1 << "\t:" << endl;
 		cout << "Enter your choice: ";
 		cin  >> carChoice[i];
 			if(carChoice[i] == 'N'){
