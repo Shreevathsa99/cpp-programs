@@ -1,4 +1,0 @@
-20-04-2019:
-Entry-1(08:29 pm)
-* Installed git to my windows machine.
-*
